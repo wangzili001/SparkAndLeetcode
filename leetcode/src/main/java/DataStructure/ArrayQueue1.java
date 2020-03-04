@@ -41,7 +41,7 @@ public class ArrayQueue1 {
             System.out.println("该队列为空了哦...");
             return null;
         }
-        return ints[++front];
+        return ints[front++];
     }
     public void print(){
         if(isEmpty()){

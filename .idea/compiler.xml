@@ -9,6 +9,7 @@
         <module name="SparkSQL" />
         <module name="leetcode" />
         <module name="SparkCore" />
+        <module name="SparkStreaming" />
       </profile>
     </annotationProcessing>
   </component>
