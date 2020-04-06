@@ -1,4 +1,4 @@
-package DataStructure;
+package DataStructure.Node;
 
 public class Node {
     //节点内容
