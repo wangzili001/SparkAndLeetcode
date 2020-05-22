@@ -13,6 +13,7 @@
         <module>leetcode</module>
         <module>SparkSQL</module>
         <module>SparkStreaming</module>
+        <module>scala</module>
     </modules>
 
     <dependencies>
