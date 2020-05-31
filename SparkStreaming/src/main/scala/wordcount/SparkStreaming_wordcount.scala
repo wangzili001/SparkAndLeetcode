@@ -12,7 +12,7 @@ object SparkStreaming_wordcount {
 
     //实时数据分析环境对象
     //采集周期 以指定的时间为周期
-     val socketLineDStream: ReceiverInputDStream[String] = streamingContext.socketTextStream("hadoop",9999)
+     val socketLineDStream: ReceiverInputDStream[String] = streamingContext.socketTextStream("hadoop1",9999)
     //将采集的数据进行分解（扁平化）
       val wordDStream: DStream[String] = socketLineDStream.flatMap(_.split(" "))
     //将扁平化的数据进行结构的转变
