@@ -57,8 +57,6 @@ class MyReceiver(host: String, port: Int) extends Receiver[String](StorageLevel.
   override def onStart(): Unit = {
     new Thread(
       new Runnable {
-
-
         override def run(): Unit = {
           receiver()
         }

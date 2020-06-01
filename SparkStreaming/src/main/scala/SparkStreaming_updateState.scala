@@ -16,7 +16,7 @@ object SparkStreaming_updateState {
     streamingContext.sparkContext.setCheckpointDir("SparkStreaming/sparkstreaming_checkpoint")
 
     val kafkaParams = Map[String, Object](
-      "bootstrap.servers" -> "hadoop:9092",
+      "bootstrap.servers" -> "hadoop1:9092",
       "key.deserializer" -> classOf[StringDeserializer],
       "value.deserializer" -> classOf[StringDeserializer],
       "group.id" -> "wzl",
