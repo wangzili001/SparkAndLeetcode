@@ -42,14 +42,11 @@ public class ReverseKGroup {
         listNode3.next = listNode4;
         listNode4.next = listNode5;
 
-        while (listNode1.next != null){
-            System.out.println(listNode1.getVal());
-            listNode1 = listNode1.next;
-        }
-
+        reverseKGroup(listNode1,2);
     }
 
-    public ListNode reverseKGroup(ListNode head, int k) {
+    public static ListNode reverseKGroup(ListNode head, int k) {
+        
         return head;
     }
 }
