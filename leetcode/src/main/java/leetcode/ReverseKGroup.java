@@ -41,11 +41,11 @@ public class ReverseKGroup {
         listNode2.next = listNode3;
         listNode3.next = listNode4;
         listNode4.next = listNode5;
-
         reverseKGroup(listNode1,2);
     }
 
     public static ListNode reverseKGroup(ListNode head, int k) {
+        ListNode listNode = null;
         
         return head;
     }
